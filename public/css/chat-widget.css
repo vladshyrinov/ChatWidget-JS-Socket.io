@@ -1,0 +1,123 @@
+h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+.mbtn {
+    border: none;
+    background: rgb(161, 223, 241);
+}
+.mbtn:hover {
+    background: rgb(68, 149, 172);
+}
+.mbtn:focus {
+    outline: none;
+}
+.open-chat-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.none {
+    display: none;
+}
+#chat-widget {
+    position: fixed;
+    right: 5vw;
+    bottom: 5vh;
+}
+.chat-content,
+.chats-content {
+    width: 300px;
+    border: 1px solid rgb(16, 71, 87);
+}
+.chat-top,
+.chats-top {
+    height: 40px;
+    background: rgb(209, 232, 238);
+    font-weight: bold;
+}
+.back-arrow {
+    width: 15%;
+}
+.contact-name,
+.chats-inscription {
+    text-align: center;
+    line-height: 40px;
+    width: 70%;
+}
+.close-cross {
+    width: 15%;
+}
+.chats-inscription {
+    width: 85%;
+}
+.chat-box,
+.chats {
+    height: 300px;
+    border: 1px solid rgb(48, 131, 156);
+    overflow-y: scroll;
+    overflow-x: none;
+    background: azure;
+}
+.chats {
+    height: 355px;
+}
+.chat-box::-webkit-scrollbar,
+.chats::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(35, 153, 189);
+}
+.chat-box::-webkit-scrollbar-button,
+.chats::-webkit-scrollbar-button {
+    background-color: beige; 
+}
+.chat-box::-webkit-scrollbar-thumb,
+.chats::-webkit-scrollbar-thumb {
+    background-color: rgb(29, 112, 138); 
+}
+.message {
+    margin-top: 5px;
+    margin-left: 2vw;
+    width: 80%;
+    padding: 5px;
+    background: rgb(148, 222, 245);
+    word-wrap: break-word;
+    border-radius: 5px; 
+}
+.chat-msg {
+    width: 80%;
+    resize: none;
+    outline: none;
+    padding: 5px 0 0 5px;
+}
+.chat-msg::-webkit-scrollbar {
+    width: 3px;
+    background-color: rgb(161, 223, 241);
+}
+.chat-msg::-webkit-scrollbar-button {
+    background-color: beige; 
+}
+.chat-msg::-webkit-scrollbar-thumb {
+    background-color: rgb(96, 180, 206); 
+}
+.send-msg-btn {
+    width: 20%;
+}
+.contact {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid rgb(98, 117, 122);
+    background: rgb(224, 234, 236);
+    height: 90px;
+    overflow: hidden;
+}
+.contact:hover {
+    background: rgb(193, 216, 223);
+}
+.contact p {
+    word-wrap: break-word;
+}
+
